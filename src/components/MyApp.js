@@ -14,12 +14,12 @@ const MyApp = ({
 
   return (
     <div className={`my-app ${fullWidth ? 'hide-images' : ''}`}>
-      <h2>
+      <h3>
         <a className="app-heading" href={appLink}>
           <img className="app-icon" src={icon} alt="App icon" />
           <u>{title}</u>
         </a>
-      </h2>
+      </h3>
       <div className="columns">
         <div className="wide-image-column wide-only">
           <a className="no-border" href={appLink}>

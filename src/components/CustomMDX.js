@@ -8,7 +8,12 @@ function CustomMDX({ children }) {
         h2: (props) => (
           <>
             <span className="icon fa-code" />
-            <h2 {...props} className="mdx-h2" />
+            <h3 {...props} className="mdx-h3" />
+          </>
+        ),
+        a: (props) => (
+          <>
+            <a {...props} target="_blank" rel="noreferrer" />
           </>
         ),
       }}

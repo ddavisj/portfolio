@@ -67,9 +67,11 @@ const IndexPage = () => (
         <header className="major">
           <h2>
             Web designer turned developer. <br />
-            Working for a local NGO called TreeProject. <br />
-            Just completed a React &amp; Redux course, seeking work as a
-            front-end dev <br />
+            Working for TreeProject, a Victorian NGO. <br />
+            Studying TypeScript, recently completed a React &amp; Redux course.{' '}
+            <br />
+            Seeking work as a front-end developer.
+            <br />
           </h2>
         </header>
       </section>
@@ -83,7 +85,7 @@ const IndexPage = () => (
             <div className="content">
               <h3>Summary</h3>
               <p>
-                Currently studying&nbsp;
+                I'm currently studying&nbsp;
                 <a
                   href="https://www.udemy.com/course/understanding-typescript/"
                   target="_blank"
@@ -91,7 +93,7 @@ const IndexPage = () => (
                 >
                   TypeScript
                 </a>
-                , I completed a&nbsp;
+                , and I completed a&nbsp;
                 <a
                   href="https://www.udemy.com/course/react-redux/"
                   target="_blank"
@@ -99,13 +101,13 @@ const IndexPage = () => (
                 >
                   React and Redux
                 </a>
-                &nbsp; course in April 2022, and
+                &nbsp; course in April 2022, and&nbsp;
                 <a
                   href="https://www.udemy.com/course/javascript-beginners-complete-tutorial/"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  &nbsp;JavaScript, Node and Express
+                  JavaScript, Node and Express
                 </a>
                 , and&nbsp;
                 <a
@@ -116,9 +118,8 @@ const IndexPage = () => (
                   PHP and MySQL
                 </a>
                 &nbsp;courses the previous year. I work part-time for
-                TreeProject - a Victorian NGO - as a designer/developer, run a
-                web-startup and maintain a few websites through a design agency
-                called&nbsp;
+                TreeProject, a Victorian NGO, as a designer and developer, run a
+                web-startup and maintain websites through my design agency&nbsp;
                 <a
                   href="https://eadigital.com.au"
                   target="_blank"
@@ -145,10 +146,10 @@ const IndexPage = () => (
                 >
                   TreeProject
                 </a>
-                &nbsp; since 2020, partly as a web designer but also as a
-                developer. Part of my work has involved writing PHP calls to
+                &nbsp;since 2020, partly as a web designer but also as a
+                developer. Part of my work has involved writing PHP calls to SQL
                 stored procedures that pass secure and validated data from
-                WordPress forms to a cloud-hosted SQL database.
+                WordPress forms to a cloud-hosted database.
               </p>
               <p>
                 Through&nbsp;
@@ -181,7 +182,7 @@ const IndexPage = () => (
               <h3>Background</h3>
               <p>
                 I've got degrees in Science and Law and have worked as a lawyer,
-                in small and large businesses and have run a successful
+                in small and large businesses, and have run a successful
                 consulting business. See my&nbsp;
                 <a
                   href="https://www.linkedin.com/in/davidhack"
@@ -190,7 +191,7 @@ const IndexPage = () => (
                 >
                   LinkedIn
                 </a>
-                &nbsp;for more info on my work history and studies.
+                &nbsp;to find out more about my work history and studies.
               </p>
             </div>
           </section>
@@ -202,14 +203,14 @@ const IndexPage = () => (
               <h3>My Apps</h3>
               <p>
                 I'm now building skills with the MERN stack (MongoDB, Express,
-                React and Node) and creating React powered web apps that I've
-                listed below.
+                React and Node) and creating React powered web apps that are
+                showcased below.
               </p>
             </div>
           </section>
 
           <section id="my-apps">
-            <h2>Featured Apps</h2>
+            <h3>App Showcase</h3>
 
             <MyApp
               title="This Portfolio"

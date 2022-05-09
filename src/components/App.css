@@ -19,3 +19,7 @@ a.no-border {
 .spotlight:nth-child(2n) .content {
   text-align: left !important;
 }
+
+h3 {
+  color: #b7d4d7 !important;
+}

@@ -41,10 +41,10 @@
   padding-right: 10px;
 }
 
-.my-app .mdx-h2 {
+.my-app .mdx-h3 {
   color: white;
   display: inline;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 
 .my-app.hide-images u {
