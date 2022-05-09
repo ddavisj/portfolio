@@ -3,6 +3,8 @@ import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import { StaticQuery, graphql } from 'gatsby';
 
+import config from '../../config';
+
 import '../assets/sass/main.scss';
 
 class Layout extends Component {
@@ -39,13 +41,18 @@ class Layout extends Component {
             }
           }
         `}
-        render={data => (
+        render={(data) => (
           <>
             <Helmet
               title={data.site.siteMetadata.title}
               meta={[
-                { name: 'description', content: 'Solid State' },
+                {
+                  name: 'description',
+                  content:
+                    'Front-end web developer and creative solutions specialist',
+                },
                 { name: 'keywords', content: 'site, web' },
+                { name: 'image', content: config.manifestIcon },
               ]}
             >
               <html lang="en" />
