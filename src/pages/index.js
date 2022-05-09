@@ -93,7 +93,7 @@ const IndexPage = () => (
                 >
                   TypeScript
                 </a>
-                , and I completed a&nbsp;
+                &nbsp; and completed a&nbsp;
                 <a
                   href="https://www.udemy.com/course/react-redux/"
                   target="_blank"
@@ -101,7 +101,7 @@ const IndexPage = () => (
                 >
                   React and Redux
                 </a>
-                &nbsp; course in April 2022, and&nbsp;
+                &nbsp;course in April 2022, and&nbsp;
                 <a
                   href="https://www.udemy.com/course/javascript-beginners-complete-tutorial/"
                   target="_blank"
