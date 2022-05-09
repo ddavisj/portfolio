@@ -3,8 +3,8 @@ module.exports = {
   manifestName: 'David Hack Portfolio',
   manifestShortName: 'DH Portfolio', // max 12 characters
   manifestStartUrl: '/',
-  manifestBackgroundColor: '#d4e735',
-  manifestThemeColor: '#d4e735',
+  manifestBackgroundColor: '#000',
+  manifestThemeColor: '#000',
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/images/dh-logo2.png',
   pathPrefix: `/`, // This path is subpath of your hosting https://domain/portfolio
