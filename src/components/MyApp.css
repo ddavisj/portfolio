@@ -1,0 +1,52 @@
+.my-app .app-icon {
+  width: 50px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.my-app .app-heading {
+  display: flex;
+  align-items: center;
+}
+
+.my-app .columns {
+  display: flex;
+}
+
+.my-app .wide-image-column {
+  margin-right: 35px;
+}
+
+.my-app .wide-image {
+  width: 30vw;
+}
+
+.my-app div.mobile-image img {
+  width: 100%;
+  margin-bottom: 2em;
+}
+
+.my-app .wide-image,
+.my-app .mobile-image img {
+  border-radius: 10px;
+}
+
+.my-app.hide-images .mobile-image,
+.my-app.hide-images .wide-image-column {
+  display: none;
+}
+
+.my-app .icon {
+  font-size: 1.5rem;
+  padding-right: 10px;
+}
+
+.my-app .mdx-h2 {
+  color: white;
+  display: inline;
+  font-size: 1.5rem;
+}
+
+.my-app.hide-images u {
+  text-decoration: none;
+}

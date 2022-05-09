@@ -6,8 +6,12 @@
 
 /* Header */
 
+header.major:after {
+  border-bottom: solid 2px #333;
+}
+
 #header {
-  @include color(accent1);
+  @include color(my-styles);
   @include padding(4.5em, 0);
   @include vendor('align-items', 'center');
   @include vendor('display', 'flex');

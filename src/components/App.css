@@ -1,0 +1,21 @@
+/* Site Wide CSS */
+
+@media (max-width: 767px) {
+  .wide-only {
+    display: none !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .mob-only {
+    display: none !important;
+  }
+}
+
+a.no-border {
+  border-bottom: none;
+}
+
+.spotlight:nth-child(2n) .content {
+  text-align: left !important;
+}
