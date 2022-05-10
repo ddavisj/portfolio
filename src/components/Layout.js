@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import Helmet from 'react-helmet';
-import { StaticQuery, graphql } from 'gatsby';
 
-import config from '../../config';
+import Seo from './Seo';
 
 import '../assets/sass/main.scss';
 
@@ -30,41 +28,15 @@ class Layout extends Component {
   render() {
     const { children } = this.props;
     const { isPreloaded } = this.state;
+
     return (
-      <StaticQuery
-        query={graphql`
-          query SiteTitleQuery {
-            site {
-              siteMetadata {
-                title
-              }
-            }
-          }
-        `}
-        render={(data) => (
-          <>
-            <Helmet
-              title={data.site.siteMetadata.title}
-              meta={[
-                {
-                  name: 'description',
-                  content:
-                    'Front-end web developer and creative solutions specialist',
-                },
-                { name: 'keywords', content: 'site, web' },
-                { name: 'image', content: config.manifestIcon },
-              ]}
-            >
-              <html lang="en" />
-            </Helmet>
-            <div
-              className={isPreloaded ? ' main-body is-preload' : ' main-body'}
-            >
-              <div id="page-wrapper">{children}</div>
-            </div>
-          </>
-        )}
-      />
+      <>
+        <Seo />
+
+        <div className={isPreloaded ? ' main-body is-preload' : ' main-body'}>
+          <div id="page-wrapper">{children}</div>
+        </div>
+      </>
     );
   }
 }

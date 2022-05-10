@@ -50,6 +50,18 @@ const SEO = ({ title, description, image, article }) => {
 
 export default SEO;
 
+// const working!Query = graphql`
+//   query SEO {
+//     site {
+//       siteMetadata {
+//         defaultTitle: title
+//         defaultDescription: description
+//         defaultImage: image
+//       }
+//     }
+//   }
+// `;
+
 const query = graphql`
   query SEO {
     site {
