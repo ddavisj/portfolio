@@ -213,7 +213,7 @@ const IndexPage = () => (
             <h3>App Showcase</h3>
 
             <MyApp
-              title="This Portfolio"
+              title="This Website"
               appLink={null}
               icon={dhLogo}
               image={null}
