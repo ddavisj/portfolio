@@ -4,9 +4,11 @@ module.exports = {
   pathPrefix: config.pathPrefix,
   siteMetadata: {
     title: config.siteTitle,
+    titleTemplate: '%s · Something something...',
     description: 'Front-end web developer and creative solutions specialist',
     url: 'https://davidhack.netlify.app', // No trailing slash allowed!
     image: '/src/assets/images/dh-logo3.png', // Path to the image placed in the 'static' folder, in the project's root directory.
+    twitterUsername: '@david_hack',
   },
   plugins: [
     'gatsby-plugin-react-helmet',

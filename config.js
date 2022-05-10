@@ -8,6 +8,7 @@ module.exports = {
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/images/dh-logo3.png',
   pathPrefix: `/`, // This path is subpath of your hosting https://domain/portfolio
+  // Index page headings
   heading: 'David Hack',
   subHeading: 'Front End Web Developer',
   // social
