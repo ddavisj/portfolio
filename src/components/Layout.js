@@ -53,6 +53,12 @@ class Layout extends Component {
                 },
                 { name: 'keywords', content: 'site, web' },
                 { name: 'image', content: config.manifestIcon },
+                {
+                  property: 'og:description',
+                  content:
+                    'Front-end web developer and creative solutions specialist',
+                },
+                { property: 'og:image', content: config.manifestIcon },
               ]}
             >
               <html lang="en" />
