@@ -6,7 +6,7 @@ module.exports = {
   manifestBackgroundColor: '#000',
   manifestThemeColor: '#000',
   manifestDisplay: 'standalone',
-  manifestIcon: 'src/assets/images/dh-logo3.png',
+  manifestIcon: '/static/dh-logo3.png',
   pathPrefix: `/`, // This path is subpath of your hosting https://domain/portfolio
   // Index page headings
   heading: 'David Hack',
