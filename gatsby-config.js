@@ -7,7 +7,7 @@ module.exports = {
     titleTemplate: '%s · Proudly based in Melbourne',
     description: 'Front-end web developer and creative solutions specialist',
     url: 'https://davidhack.netlify.app', // No trailing slash allowed!
-    image: '/static/dh-logo3.png', // Path to the image placed in the 'static' folder, in the project's root directory.
+    image: '/dh-logo3.png', // Path to the image placed in the 'static' folder, in the project's root directory.
     twitterUsername: '@david_hack',
   },
   plugins: [
