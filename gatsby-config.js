@@ -9,7 +9,7 @@ module.exports = {
     title: config.siteTitle,
     titleTemplate: '%s · Proudly based in Melbourne',
     description: 'Front-end web developer and creative solutions specialist',
-    image: '/opengraph.png', // Path to the image placed in the 'static' folder, in the project's root directory (from Gatsby docs)
+    image: '/og-image.png', // Path to the image placed in the 'static' folder, in the project's root directory (from Gatsby docs)
     twitterUsername: '@david_hack',
   },
   plugins: [
