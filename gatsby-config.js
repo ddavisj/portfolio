@@ -1,17 +1,19 @@
 const config = require('./config');
 
+const url = 'https://davidhack.netlify.app'; // No trailing slash allowed!
+
 module.exports = {
   pathPrefix: config.pathPrefix,
   siteMetadata: {
+    url,
     title: config.siteTitle,
     titleTemplate: '%s · Proudly based in Melbourne',
     description: 'Front-end web developer and creative solutions specialist',
-    url: 'https://davidhack.netlify.app', // No trailing slash allowed!
-    image: '/static/dh-logo3.png', // Path to the image placed in the 'static' folder, in the project's root directory (from Gatsby docs)
+    image: '/opengraph.png', // Path to the image placed in the 'static' folder, in the project's root directory (from Gatsby docs)
     twitterUsername: '@david_hack',
   },
   plugins: [
-    'gatsby-plugin-open-graph-images',
+    // 'gatsby-plugin-open-graph-images',
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,
