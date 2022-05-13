@@ -17,6 +17,7 @@
     "gatsby-plugin-manifest": "^4.2.0",
     "gatsby-plugin-mdx": "^3.13.0",
     "gatsby-plugin-offline": "^5.2.0",
+    "gatsby-plugin-open-graph-images": "^0.1.8",
     "gatsby-plugin-react-helmet": "^5.2.0",
     "gatsby-plugin-sass": "^5.2.0",
     "gatsby-react-router-scroll": "^5.4.0",
