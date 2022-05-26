@@ -93,7 +93,7 @@ const IndexPage = () => (
                 >
                   TypeScript
                 </a>
-                &nbsp; and completed a&nbsp;
+                &nbsp;and completed a&nbsp;
                 <a
                   href="https://www.udemy.com/course/react-redux/"
                   target="_blank"
@@ -211,9 +211,10 @@ const IndexPage = () => (
 
           <section id="my-apps">
             <h3>App Showcase</h3>
+            <br />
 
             <MyApp
-              title="This Website"
+              title="This Portfolio Website"
               appLink={null}
               icon={dhLogo}
               image={null}

@@ -16,10 +16,26 @@ a.no-border {
   border-bottom: none;
 }
 
+#two a {
+  color: #d4e735 !important;
+}
+
 .spotlight:nth-child(2n) .content {
   text-align: left !important;
 }
 
 h3 {
   color: #b7d4d7 !important;
+}
+
+.my-app.hide-images u {
+  color: #b7d4d7;
+}
+
+h3 {
+  color: white !important;
+}
+
+header#header p {
+  color: white;
 }
