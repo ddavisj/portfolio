@@ -8,6 +8,7 @@ import Scroll from '../components/Scroll';
 import MyApp from '../components/MyApp';
 import CustomMDX from '../components/CustomMDX';
 import Footer from '../components/Footer';
+import SocialIcons from '../components/SocialIcons';
 
 import screen from '../assets/images/me-pic.jpg';
 import aboutMeImg from '../assets/images/intro-about-me.jpg';
@@ -29,6 +30,7 @@ import pntScreenShot from '../assets/images/pnt-screen.jpg';
 
 import PortfolioMDX from '../my-apps/Portfolio';
 import dhLogo from '../assets/images/dh-logo.png';
+import eADigitalRegular from '../assets/images/EA-Digital.png';
 
 const IndexPage = () => (
   <CustomMDX>
@@ -74,6 +76,7 @@ const IndexPage = () => (
             <br />
           </h2>
         </header>
+        <SocialIcons eADigitalRegular={eADigitalRegular} />
       </section>
 
       <section id="two" className="wrapper">
