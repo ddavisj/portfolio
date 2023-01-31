@@ -69,11 +69,8 @@ const IndexPage = () => (
         <header className="major">
           <h2>
             Web designer turned developer. <br />
-            Working for TreeProject, a Victorian NGO. <br />
-            Studying TypeScript, recently completed a React &amp; Redux course.{' '}
-            <br />
-            Seeking work as a front-end developer.
-            <br />
+            Working at NWMPHN and volunteering at TreeProject. <br />
+            Studying a React, MongoDB and Redux course via Udemy.<br />
           </h2>
         </header>
         <SocialIcons eADigitalRegular={eADigitalRegular} />
@@ -88,21 +85,21 @@ const IndexPage = () => (
             <div className="content">
               <h3>Summary</h3>
               <p>
-                I'm currently studying&nbsp;
+                I'm currently studying an advanced&nbsp;
                 <a
-                  href="https://www.udemy.com/course/understanding-typescript/"
+                  href="https://www.udemy.com/course/node-with-react-fullstack-web-development/"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  TypeScript
+                  React, Redux and MongoDB course,
                 </a>
-                &nbsp;and completed a&nbsp;
+                &nbsp;completed a comprehensive
                 <a
                   href="https://www.udemy.com/course/react-redux/"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  React and Redux
+                &nbsp;React and Redux
                 </a>
                 &nbsp;course in April 2022, and&nbsp;
                 <a
@@ -110,7 +107,7 @@ const IndexPage = () => (
                   target="_blank"
                   rel="noreferrer"
                 >
-                  JavaScript, Node and Express
+                  JS, Node and Express
                 </a>
                 , and&nbsp;
                 <a
@@ -120,9 +117,7 @@ const IndexPage = () => (
                 >
                   PHP and MySQL
                 </a>
-                &nbsp;courses the previous year. I work part-time for
-                TreeProject, a Victorian NGO, as a designer and developer, run a
-                web-startup and maintain websites through my design agency&nbsp;
+                &nbsp;courses the previous year. I work full-time for North Western Melbourne Primary Health Network as a front-end developer and volunteer for TreeProject, a Victorian NGO, as a web designer and developer. I also run a web-startup and host websites through my design agency&nbsp;
                 <a
                   href="https://eadigital.com.au"
                   target="_blank"
@@ -141,7 +136,18 @@ const IndexPage = () => (
             <div className="content">
               <h3>Work Experience</h3>
               <p>
-                I've worked at&nbsp;
+                I started working at&nbsp;
+                <a
+                  href="https://nwmphn.org.au/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                North Western Melbourne PHN
+                </a>
+                &nbsp;as a front-end web developer in July 2022. I build custom components and functionality for an interface that clinicians use to record patient data, conduct mental health assessments, provide counselling services and make external referrals. I also work directly with clinicians to improve the UI and UX, conduct meetings and prepare design briefs. Our stack is built on AWS and includes Python, Flask, and Jinja templating, and I work mainly with Javascript, Jinja, Bootstrap and HTML. We work collaboratively via Git and use GitHub extensively.
+              </p>
+              <p>
+                I've also worked and volunteered at&nbsp;
                 <a
                   href="https://treeproject.org.au"
                   target="_blank"
@@ -150,7 +156,7 @@ const IndexPage = () => (
                   TreeProject
                 </a>
                 &nbsp;since 2020, partly as a web designer but also as a
-                developer. Part of my work has involved writing PHP calls to SQL
+                developer. My work involved writing PHP calls to SQL
                 stored procedures that pass secure and validated data from
                 WordPress forms to a cloud-hosted database.
               </p>
@@ -163,7 +169,7 @@ const IndexPage = () => (
                 >
                   EA Digital
                 </a>
-                , I've designed and hosted WordPress and Joomla websites for
+                , I've designed and still host WordPress and Joomla websites for
                 various clients. I also created and maintain a startup
                 called&nbsp;
                 <a
@@ -194,7 +200,7 @@ const IndexPage = () => (
                 >
                   LinkedIn
                 </a>
-                &nbsp;to find out more about my work history and studies.
+                &nbsp;for more about my work history and studies.
               </p>
             </div>
           </section>
