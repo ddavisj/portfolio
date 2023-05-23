@@ -95,16 +95,16 @@ const IndexPage = () => (
                   rel="noreferrer"
                 >
                   React, Redux and MongoDB course
-                </a>{' '}
-                , a comprehensive
+                </a>
+                , a
                 <a
                   href="https://www.udemy.com/course/react-redux/"
                   target="_blank"
                   rel="noreferrer"
                 >
                   &nbsp;React and Redux
-                </a>
-                &nbsp;the year before, and&nbsp;
+                </a>{' '}
+                course the year before, and&nbsp;
                 <a
                   href="https://www.udemy.com/course/javascript-beginners-complete-tutorial/"
                   target="_blank"
