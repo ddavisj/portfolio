@@ -72,9 +72,9 @@ const IndexPage = () => (
       <section id="one" className="wrapper style2 special">
         <header className="major">
           <h2>
-            Web designer turned developer. <br />
+            Web designer turned FED. <br />
             Working at NWMPHN and volunteering at TreeProject. <br />
-            Studying a React, MongoDB and Redux course via Udemy.
+            Just completed a MERN stack app, about to get stuck into NextJS.
             <br />
           </h2>
         </header>
