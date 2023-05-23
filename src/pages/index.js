@@ -74,7 +74,7 @@ const IndexPage = () => (
           <h2>
             Web designer turned FED. <br />
             Working at NWMPHN and volunteering at TreeProject. <br />
-            Just completed a MERN stack app, about to get stuck into NextJS.
+            Just completed a MERN stack app, about to start studying NextJS.
             <br />
           </h2>
         </header>
@@ -98,7 +98,7 @@ const IndexPage = () => (
                 >
                   React, Redux and MongoDB course
                 </a>{' '}
-                in May 2023 and a comprehensive
+                in May 2023, a comprehensive
                 <a
                   href="https://www.udemy.com/course/react-redux/"
                   target="_blank"
@@ -124,9 +124,9 @@ const IndexPage = () => (
                 </a>
                 &nbsp;courses the previous year. I work full-time for North
                 Western Melbourne Primary Health Network as a front-end
-                developer and volunteer for TreeProject, a Victorian NGO, as a
-                web designer and developer. I also run a web-startup and host
-                websites through my design agency&nbsp;
+                developer and volunteer for TreeProject, a Victorian NGO, on
+                their website. I also run a web-startup and host websites
+                through my design agency&nbsp;
                 <a
                   href="https://eadigital.com.au"
                   target="_blank"
@@ -155,13 +155,13 @@ const IndexPage = () => (
                 </a>
                 &nbsp;as a front-end web developer in July 2022. I build custom
                 components and functionality for a system that clinicians use to
-                record patient data, conduct mental health assessments, provide
-                counselling services and make external referrals. I also work
-                directly with clinicians to improve the system's UI and UX,
-                conduct meetings and prepare design briefs. Our stack is built
-                on AWS and includes Python, Flask, and Jinja templating, and I
-                work mainly with Javascript, Jinja, Bootstrap and HTML. We work
-                collaboratively via Git and use GitHub extensively.
+                record patient data, conduct mental health assessments and make
+                external referrals. I also work with clinicians to improve the
+                system's UI and UX, conduct meetings and prepare design briefs.
+                Our stack is built on AWS and includes Python, Flask, and Jinja
+                templating, and I work mainly with Javascript, Jinja, Bootstrap
+                and HTML. We work collaboratively via Git and use GitHub
+                extensively.
               </p>
               <p>
                 I've also worked and volunteered at&nbsp;

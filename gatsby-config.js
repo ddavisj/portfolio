@@ -7,7 +7,7 @@ module.exports = {
   siteMetadata: {
     url,
     title: config.siteTitle,
-    titleTemplate: '%s · Proudly based in Melbourne',
+    titleTemplate: '%s · Melbourne based Front End Developer',
     description: 'Front-end web developer and creative solutions specialist',
     image: '/og-image.png', // Path to the image placed in the 'static' folder, in the project's root directory (from Gatsby docs)
     twitterUsername: '@david_hack',
