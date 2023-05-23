@@ -1,13 +1,11 @@
-Users login using Google single-sign-on, add credit via Stripe and create a survey and verify its details before sending.
-When recipients click to vote in emails, SendGrid sends webhooks to the Express server and click data is stored in MongoDB. This lets survey creators monitor clicks.
+Users log in using Google single-sign-on, add credit via Stripe and create a survey that is then sent to an email list. When email recipients then click a link in the email to vote, SendGrid sends a webhook to our Express server and the resulting click data is stored in MongoDB. This enables survey creators to monitor clicks.
 
-The app was built as part of a [Node with React: Fullstack Web Development](https://www.udemy.com/course/node-with-react-fullstack-web-development) course on a MERN stack.
-It also features integrations with APIs including Google OAuth2 and Stripe.
+This app was built as part of a [Node with React: Fullstack Web Development](https://www.udemy.com/course/node-with-react-fullstack-web-development) course on a MERN stack.
 
 ## Key skills
 
-- API calls as mentioned
-- User accounts, credit, and surveys details and clicks are stored in MongoDB
+- Stripe, Google Auth, SendGrid and Mongo Atlas APIs
+- User accounts and credit, and surveys details and clicks are stored in MongoDB
 - Webhooks via SendGrid
 
 Code hosted on Heroku

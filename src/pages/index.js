@@ -72,10 +72,8 @@ const IndexPage = () => (
       <section id="one" className="wrapper style2 special">
         <header className="major">
           <h2>
-            Web designer turned FED. <br />
-            Working at NWMPHN and volunteering at TreeProject. <br />
-            Just completed a MERN stack app, about to start studying NextJS.
-            <br />
+            Web designer turned front-end developer. <br />
+            Working for a not-for-profit in the mental health space. <br />
           </h2>
         </header>
         <SocialIcons eADigitalRegular={eADigitalRegular} />
@@ -85,12 +83,12 @@ const IndexPage = () => (
         <div className="inner alt">
           <section className="spotlight">
             <div className="image">
-              <img src={aboutMeImg} alt="" />
+              <img src={aboutMeImg} alt="About me" />
             </div>
             <div className="content">
               <h3>Summary</h3>
               <p>
-                I completed a full-stack&nbsp;
+                I recently completed a full-stack&nbsp;
                 <a
                   href="https://www.udemy.com/course/node-with-react-fullstack-web-development/"
                   target="_blank"
@@ -98,7 +96,7 @@ const IndexPage = () => (
                 >
                   React, Redux and MongoDB course
                 </a>{' '}
-                in May 2023, a comprehensive
+                , a comprehensive
                 <a
                   href="https://www.udemy.com/course/react-redux/"
                   target="_blank"
@@ -106,7 +104,7 @@ const IndexPage = () => (
                 >
                   &nbsp;React and Redux
                 </a>
-                &nbsp;course in April 2022, and&nbsp;
+                &nbsp;the year before, and&nbsp;
                 <a
                   href="https://www.udemy.com/course/javascript-beginners-complete-tutorial/"
                   target="_blank"
@@ -122,9 +120,9 @@ const IndexPage = () => (
                 >
                   PHP and MySQL
                 </a>
-                &nbsp;courses the previous year. I work full-time for North
-                Western Melbourne Primary Health Network as a front-end
-                developer and volunteer for TreeProject, a Victorian NGO, on
+                &nbsp;courses prior to that. I currently work full-time for
+                North Western Melbourne Primary Health Network as a front-end
+                developer and volunteer with TreeProject, a Victorian NGO, on
                 their website. I also run a web-startup and host websites
                 through my design agency&nbsp;
                 <a
@@ -151,10 +149,10 @@ const IndexPage = () => (
                   target="_blank"
                   rel="noreferrer"
                 >
-                  North Western Melbourne PHN
+                  NWMPHN
                 </a>
-                &nbsp;as a front-end web developer in July 2022. I build custom
-                components and functionality for a system that clinicians use to
+                &nbsp;as a front-end web developer in July 2022. I build and
+                modify custom components for a system that clinicians use to
                 record patient data, conduct mental health assessments and make
                 external referrals. I also work with clinicians to improve the
                 system's UI and UX, conduct meetings and prepare design briefs.
