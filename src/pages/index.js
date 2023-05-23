@@ -32,6 +32,10 @@ import PortfolioMDX from '../my-apps/Portfolio';
 import dhLogo from '../assets/images/dh-logo.png';
 import eADigitalRegular from '../assets/images/EA-Digital.png';
 
+import VoteNowMDX from '../my-apps/VoteNow';
+import votenowLogo from '../assets/images/votenow-icon.png';
+import votenowScreenShot from '../assets/images/votenow-screen.jpg';
+
 const IndexPage = () => (
   <CustomMDX>
     <Layout>
@@ -70,7 +74,8 @@ const IndexPage = () => (
           <h2>
             Web designer turned developer. <br />
             Working at NWMPHN and volunteering at TreeProject. <br />
-            Studying a React, MongoDB and Redux course via Udemy.<br />
+            Studying a React, MongoDB and Redux course via Udemy.
+            <br />
           </h2>
         </header>
         <SocialIcons eADigitalRegular={eADigitalRegular} />
@@ -85,21 +90,21 @@ const IndexPage = () => (
             <div className="content">
               <h3>Summary</h3>
               <p>
-                I'm currently studying an advanced&nbsp;
+                I completed a full-stack&nbsp;
                 <a
                   href="https://www.udemy.com/course/node-with-react-fullstack-web-development/"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  React, Redux and MongoDB course,
-                </a>
-                &nbsp;completed a comprehensive
+                  React, Redux and MongoDB course
+                </a>{' '}
+                in May 2023 and a comprehensive
                 <a
                   href="https://www.udemy.com/course/react-redux/"
                   target="_blank"
                   rel="noreferrer"
                 >
-                &nbsp;React and Redux
+                  &nbsp;React and Redux
                 </a>
                 &nbsp;course in April 2022, and&nbsp;
                 <a
@@ -117,7 +122,11 @@ const IndexPage = () => (
                 >
                   PHP and MySQL
                 </a>
-                &nbsp;courses the previous year. I work full-time for North Western Melbourne Primary Health Network as a front-end developer and volunteer for TreeProject, a Victorian NGO, as a web designer and developer. I also run a web-startup and host websites through my design agency&nbsp;
+                &nbsp;courses the previous year. I work full-time for North
+                Western Melbourne Primary Health Network as a front-end
+                developer and volunteer for TreeProject, a Victorian NGO, as a
+                web designer and developer. I also run a web-startup and host
+                websites through my design agency&nbsp;
                 <a
                   href="https://eadigital.com.au"
                   target="_blank"
@@ -142,9 +151,17 @@ const IndexPage = () => (
                   target="_blank"
                   rel="noreferrer"
                 >
-                North Western Melbourne PHN
+                  North Western Melbourne PHN
                 </a>
-                &nbsp;as a front-end web developer in July 2022. I build custom components and functionality for an interface that clinicians use to record patient data, conduct mental health assessments, provide counselling services and make external referrals. I also work directly with clinicians to improve the UI and UX, conduct meetings and prepare design briefs. Our stack is built on AWS and includes Python, Flask, and Jinja templating, and I work mainly with Javascript, Jinja, Bootstrap and HTML. We work collaboratively via Git and use GitHub extensively.
+                &nbsp;as a front-end web developer in July 2022. I build custom
+                components and functionality for a system that clinicians use to
+                record patient data, conduct mental health assessments, provide
+                counselling services and make external referrals. I also work
+                directly with clinicians to improve the system's UI and UX,
+                conduct meetings and prepare design briefs. Our stack is built
+                on AWS and includes Python, Flask, and Jinja templating, and I
+                work mainly with Javascript, Jinja, Bootstrap and HTML. We work
+                collaboratively via Git and use GitHub extensively.
               </p>
               <p>
                 I've also worked and volunteered at&nbsp;
@@ -156,12 +173,7 @@ const IndexPage = () => (
                   TreeProject
                 </a>
                 &nbsp;since 2020, partly as a web designer but also as a
-                developer. My work involved writing PHP calls to SQL
-                stored procedures that pass secure and validated data from
-                WordPress forms to a cloud-hosted database.
-              </p>
-              <p>
-                Through&nbsp;
+                developer. Through&nbsp;
                 <a
                   href="https://eadigital.com.au"
                   target="_blank"
@@ -213,7 +225,8 @@ const IndexPage = () => (
               <p>
                 I'm now building skills with the MERN stack (MongoDB, Express,
                 React and Node) and creating React powered web apps that are
-                showcased below.
+                showcased below. My upcoming apps will feature NextJS and
+                TypeScript.
               </p>
             </div>
           </section>
@@ -222,6 +235,17 @@ const IndexPage = () => (
             <h3>App Showcase</h3>
             <br />
 
+            <MyApp
+              title="VoteNow"
+              appLink="https://votenow.herokuapp.com"
+              icon={votenowLogo}
+              image={votenowScreenShot}
+              subtitle="VoteNow lets users send single click email surveys to a mailing list and monitor feedback."
+            >
+              <VoteNowMDX />
+            </MyApp>
+          </section>
+          <section>
             <MyApp
               title="This Portfolio Website"
               appLink={null}
