@@ -238,7 +238,7 @@ const IndexPage = () => (
               appLink="https://myhaiku.vercel.app/"
               icon={myhaikuIcon}
               image={myhaikuScreenShot}
-              subtitle="MyHaiku lets users create and share haiku. It was built with NextJS and TypeScript."
+              subtitle="MyHaiku lets users create and share haiku. It was built with NextJS, TypeScript and Tailwind CSS."
             >
               <MyHaikuMDX />
             </MyApp>
