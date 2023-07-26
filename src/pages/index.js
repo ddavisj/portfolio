@@ -153,15 +153,15 @@ const IndexPage = () => (
                   target="_blank"
                   rel="noreferrer"
                 >
-                  NWMPHN
+                  North Western Melbourne Primary Health Network
                 </a>
                 &nbsp;as a front-end web developer until June 2023. I created
                 custom components for a system that clinicians use to conduct
-                assessments and make referrals. I improved the system's UI/UX,
+                assessments and make referrals, improved the system's UI/UX, and
                 created wireframes and design briefs. The stack was built on AWS
                 and included Python, Flask, and Jinja; I mainly worked with
-                Javascript and Bootstrap. We collaborated via git and used
-                GitHub extensively.
+                Javascript and Bootstrap. We adopted CI/CD and agile techniques
+                and used Git and Github to collaborate.
               </p>
               <p>
                 I've also volunteered at&nbsp;
@@ -172,7 +172,9 @@ const IndexPage = () => (
                 >
                   TreeProject
                 </a>
-                &nbsp;since 2020, as a web designer and developer. Through&nbsp;
+                &nbsp;since 2020 as a web designer and developer. I design and
+                host WordPress and Joomla websites for various clients
+                through&nbsp;
                 <a
                   href="https://eadigital.com.au"
                   target="_blank"
@@ -180,8 +182,7 @@ const IndexPage = () => (
                 >
                   EA Digital
                 </a>
-                , I design and host WordPress and Joomla websites for various
-                clients. I also created and maintain a startup called&nbsp;
+                . I also run an eco-startup called&nbsp;
                 <a
                   href="https://www.echoactive.com"
                   target="_blank"
@@ -222,8 +223,8 @@ const IndexPage = () => (
               <h3>My Apps</h3>
               <p>
                 My latest app features NextJS and TypeScript. A recently built
-                built MERN stack (MongoDB, Express, React and Node) web-app and
-                other React apps are showcased below.
+                MERN stack web-app and other React apps are also showcased
+                below.
               </p>
             </div>
           </section>
@@ -237,7 +238,7 @@ const IndexPage = () => (
               appLink="https://myhaiku.vercel.app/"
               icon={myhaikuIcon}
               image={myhaikuScreenShot}
-              subtitle="This app lets users create and share haiku. It was built with NextJS and TypeScript."
+              subtitle="MyHaiku lets users create and share haiku. It was built with NextJS and TypeScript."
             >
               <MyHaikuMDX />
             </MyApp>
@@ -272,7 +273,7 @@ const IndexPage = () => (
               appLink="https://mybooksx.herokuapp.com/"
               icon={mybooksIcon}
               image={myBooksScreenShot}
-              subtitle="This app lets users create a personal book collection."
+              subtitle="MyBooks lets users create a personal book collection."
             >
               <MybooksMDX />
             </MyApp>
@@ -283,7 +284,7 @@ const IndexPage = () => (
               appLink="https://kurztube.netlify.app/"
               icon={kurztubeIcon}
               image={kurztubeScreenShot}
-              subtitle="This app connects to the YouTube API and lets users search for and display a list of videos, select a result and play it in their browser."
+              subtitle="Kurztube connects to the YouTube API and lets users search for and play a video."
             >
               <KurztubeMDX />
             </MyApp>
@@ -294,7 +295,7 @@ const IndexPage = () => (
               appLink="https://plantsnthings.herokuapp.com/"
               icon={pntIcon}
               image={pntScreenShot}
-              subtitle="This app is a plant shop, built with vanilla-JS, a custom Node server, Express and HTML templates."
+              subtitle="Plants 'n Things is a plant shop, built with vanilla-JS, a custom Node server, Express and HTML templates."
             >
               <PntMDX />
             </MyApp>
