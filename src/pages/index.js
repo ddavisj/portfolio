@@ -2,6 +2,7 @@ import '../components/App.css';
 
 import React from 'react';
 
+// Config
 import config from '../../config';
 import Layout from '../components/Layout';
 import Scroll from '../components/Scroll';
@@ -10,11 +11,21 @@ import CustomMDX from '../components/CustomMDX';
 import Footer from '../components/Footer';
 import SocialIcons from '../components/SocialIcons';
 
+// Images
 import screen from '../assets/images/me-pic.jpg';
 import aboutMeImg from '../assets/images/intro-about-me.jpg';
 import workExperienceImg from '../assets/images/intro-work-experience.jpg';
 import backgroundImg from '../assets/images/intro-background.jpg';
 import myAppsImg from '../assets/images/intro-my-apps.jpg';
+
+// Apps // icons: 180sq, screenshots: 410 x 425
+import MyHaikuMDX from '../my-apps/Myhaiku';
+import myhaikuIcon from '../assets/images/myhaiku.png';
+import myhaikuScreenShot from '../assets/images/myhaiku-screen.jpg';
+
+import VoteNowMDX from '../my-apps/VoteNow';
+import votenowLogo from '../assets/images/votenow-icon.png';
+import votenowScreenShot from '../assets/images/votenow-screen.jpg';
 
 import MybooksMDX from '../my-apps/Mybooks';
 import mybooksIcon from '../assets/images/mybooks-icon.png';
@@ -31,10 +42,6 @@ import pntScreenShot from '../assets/images/pnt-screen.jpg';
 import PortfolioMDX from '../my-apps/Portfolio';
 import dhLogo from '../assets/images/dh-logo.png';
 import eADigitalRegular from '../assets/images/EA-Digital.png';
-
-import VoteNowMDX from '../my-apps/VoteNow';
-import votenowLogo from '../assets/images/votenow-icon.png';
-import votenowScreenShot from '../assets/images/votenow-screen.jpg';
 
 const IndexPage = () => (
   <CustomMDX>
@@ -73,7 +80,7 @@ const IndexPage = () => (
         <header className="major">
           <h2>
             Web designer turned front-end developer. <br />
-            Working for a not-for-profit in the mental health space. <br />
+            Looking for full-time or contract work. <br />
           </h2>
         </header>
         <SocialIcons eADigitalRegular={eADigitalRegular} />
@@ -88,7 +95,8 @@ const IndexPage = () => (
             <div className="content">
               <h3>Summary</h3>
               <p>
-                I recently completed a full-stack&nbsp;
+                Currently studying TypeScript and NextJS. I recently completed a
+                full-stack&nbsp;
                 <a
                   href="https://www.udemy.com/course/node-with-react-fullstack-web-development/"
                   target="_blank"
@@ -102,7 +110,7 @@ const IndexPage = () => (
                   target="_blank"
                   rel="noreferrer"
                 >
-                  &nbsp;React and Redux
+                  &nbsp;React/Redux
                 </a>{' '}
                 course the year before, and&nbsp;
                 <a
@@ -112,19 +120,15 @@ const IndexPage = () => (
                 >
                   JS, Node and Express
                 </a>
-                , and&nbsp;
-                <a
-                  href="https://www.udemy.com/course/learning-dynamic-website-design/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  PHP and MySQL
-                </a>
-                &nbsp;courses prior to that. I currently work full-time for
-                North Western Melbourne Primary Health Network as a front-end
-                developer and volunteer with TreeProject, a Victorian NGO, on
-                their website. I also run a web-startup and host websites
-                through my design agency&nbsp;
+                , and PHP and MySQL courses.
+              </p>
+
+              <p>
+                I completed a one year contract for North Western Melbourne
+                Primary Health Network as a front-end developer in June 2023. I
+                also volunteer with TreeProject, a Victorian NGO, run a
+                web-startup and design and host websites via my design
+                agency&nbsp;
                 <a
                   href="https://eadigital.com.au"
                   target="_blank"
@@ -143,7 +147,7 @@ const IndexPage = () => (
             <div className="content">
               <h3>Work Experience</h3>
               <p>
-                I started working at&nbsp;
+                I worked at&nbsp;
                 <a
                   href="https://nwmphn.org.au/"
                   target="_blank"
@@ -151,18 +155,16 @@ const IndexPage = () => (
                 >
                   NWMPHN
                 </a>
-                &nbsp;as a front-end web developer in July 2022. I build and
-                modify custom components for a system that clinicians use to
-                record patient data, conduct mental health assessments and make
-                external referrals. I also work with clinicians to improve the
-                system's UI and UX, conduct meetings and prepare design briefs.
-                Our stack is built on AWS and includes Python, Flask, and Jinja
-                templating, and I work mainly with Javascript, Jinja, Bootstrap
-                and HTML. We work collaboratively via Git and use GitHub
-                extensively.
+                &nbsp;as a front-end web developer until June 2023. I created
+                custom components for a system that clinicians use to conduct
+                assessments and make referrals. I improved the system's UI/UX,
+                created wireframes and design briefs. The stack was built on AWS
+                and included Python, Flask, and Jinja; I mainly worked with
+                Javascript and Bootstrap. We collaborated via git and used
+                GitHub extensively.
               </p>
               <p>
-                I've also worked and volunteered at&nbsp;
+                I've also volunteered at&nbsp;
                 <a
                   href="https://treeproject.org.au"
                   target="_blank"
@@ -170,8 +172,7 @@ const IndexPage = () => (
                 >
                   TreeProject
                 </a>
-                &nbsp;since 2020, partly as a web designer but also as a
-                developer. Through&nbsp;
+                &nbsp;since 2020, as a web designer and developer. Through&nbsp;
                 <a
                   href="https://eadigital.com.au"
                   target="_blank"
@@ -179,9 +180,8 @@ const IndexPage = () => (
                 >
                   EA Digital
                 </a>
-                , I've designed and still host WordPress and Joomla websites for
-                various clients. I also created and maintain a startup
-                called&nbsp;
+                , I design and host WordPress and Joomla websites for various
+                clients. I also created and maintain a startup called&nbsp;
                 <a
                   href="https://www.echoactive.com"
                   target="_blank"
@@ -210,7 +210,7 @@ const IndexPage = () => (
                 >
                   LinkedIn
                 </a>
-                &nbsp;for more about my work history and studies.
+                &nbsp;for more about my work history.
               </p>
             </div>
           </section>
@@ -221,10 +221,9 @@ const IndexPage = () => (
             <div className="content">
               <h3>My Apps</h3>
               <p>
-                I'm now building skills with the MERN stack (MongoDB, Express,
-                React and Node) and creating React powered web apps that are
-                showcased below. My upcoming apps will feature NextJS and
-                TypeScript.
+                My latest app features NextJS and TypeScript. A recently built
+                built MERN stack (MongoDB, Express, React and Node) web-app and
+                other React apps are showcased below.
               </p>
             </div>
           </section>
@@ -233,6 +232,18 @@ const IndexPage = () => (
             <h3>App Showcase</h3>
             <br />
 
+            <MyApp
+              title="MyHaiku"
+              appLink="https://myhaiku.vercel.app/"
+              icon={myhaikuIcon}
+              image={myhaikuScreenShot}
+              subtitle="This app lets users create and share haiku. It was built with NextJS and TypeScript."
+            >
+              <MyHaikuMDX />
+            </MyApp>
+          </section>
+
+          <section>
             <MyApp
               title="VoteNow"
               appLink="https://votenow.herokuapp.com"
