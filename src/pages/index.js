@@ -18,7 +18,7 @@ import workExperienceImg from '../assets/images/intro-work-experience.jpg';
 import backgroundImg from '../assets/images/intro-background.jpg';
 import myAppsImg from '../assets/images/intro-my-apps.jpg';
 
-// Apps // icons: 180sq, screenshots: 410 x 425
+// Apps - icons - 180sq, screenshots: 410 x 425
 import GrowBookMDX from '../my-apps/GrowBook';
 import growBookIcon from '../assets/images/growBook.png';
 import growBookScreenShot from '../assets/images/growBook-screen.jpg';
