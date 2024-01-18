@@ -19,6 +19,10 @@ import backgroundImg from '../assets/images/intro-background.jpg';
 import myAppsImg from '../assets/images/intro-my-apps.jpg';
 
 // Apps // icons: 180sq, screenshots: 410 x 425
+import GrowBookMDX from '../my-apps/GrowBook';
+import growBookIcon from '../assets/images/growBook.png';
+import growBookScreenShot from '../assets/images/growBook-screen.jpg';
+
 import MyHaikuMDX from '../my-apps/Myhaiku';
 import myhaikuIcon from '../assets/images/myhaiku.png';
 import myhaikuScreenShot from '../assets/images/myhaiku-screen.jpg';
@@ -95,16 +99,16 @@ const IndexPage = () => (
             <div className="content">
               <h3>Summary</h3>
               <p>
-                Currently studying TypeScript and NextJS. I recently completed a
-                full-stack&nbsp;
+                Currently studying NuxtJS, VueJS and TypeScript. Have built apps
+                with Nuxt, Next and React, and completed full-stack&nbsp;
                 <a
                   href="https://www.udemy.com/course/node-with-react-fullstack-web-development/"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  React, Redux and MongoDB course
+                  React, Redux and MongoDB
                 </a>
-                , a
+                , and
                 <a
                   href="https://www.udemy.com/course/react-redux/"
                   target="_blank"
@@ -112,13 +116,13 @@ const IndexPage = () => (
                 >
                   &nbsp;React/Redux
                 </a>{' '}
-                course the year before, and&nbsp;
+                courses in 2022, and separate&nbsp;
                 <a
                   href="https://www.udemy.com/course/javascript-beginners-complete-tutorial/"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  JS, Node and Express
+                  JavaScript, Node and Express
                 </a>
                 , and PHP and MySQL courses.
               </p>
@@ -126,7 +130,7 @@ const IndexPage = () => (
               <p>
                 I completed a one year contract for North Western Melbourne
                 Primary Health Network as a front-end developer in June 2023. I
-                also volunteer with TreeProject, a Victorian NGO, run a
+                currently volunteer with TreeProject, a Victorian NGO, and run a
                 web-startup and design and host websites via my design
                 agency&nbsp;
                 <a
@@ -222,9 +226,9 @@ const IndexPage = () => (
             <div className="content">
               <h3>My Apps</h3>
               <p>
-                My latest app features NextJS and TypeScript. A recently built
-                MERN stack web-app and other React apps are also showcased
-                below.
+                My latest app, growBook, was built with NuxtJS, VueJS, Prisma
+                and Tailwind. A recently built NextJS and TypeScript app, a MERN
+                stack app and other React apps are also showcased below.
               </p>
             </div>
           </section>
@@ -233,6 +237,18 @@ const IndexPage = () => (
             <h3>App Showcase</h3>
             <br />
 
+            <MyApp
+              title="growBook"
+              appLink="https://growbook.vercel.app/"
+              icon={growBookIcon}
+              image={growBookScreenShot}
+              subtitle="An app that lets growers upload images and info about their favourite plants. growBook was built with Javascript frameworks Nuxt and Vue, as well as Prisma and Tailwind CSS."
+            >
+              <GrowBookMDX />
+            </MyApp>
+          </section>
+
+          <section>
             <MyApp
               title="MyHaiku"
               appLink="https://myhaiku.vercel.app/"
