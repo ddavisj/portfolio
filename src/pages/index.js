@@ -20,8 +20,8 @@ import myAppsImg from '../assets/images/intro-my-apps.jpg';
 
 // Apps - icons - 180sq, screenshots: 410 x 425
 import GrowBookMDX from '../my-apps/GrowBook';
-import growBookIcon from '../assets/images/growBook.png';
-import growBookScreenShot from '../assets/images/growBook-screen.jpg';
+import growBookIcon from '../assets/images/growBook3.png';
+import growBookScreenShot from '../assets/images/growBook-screen3.jpg';
 
 import MyHaikuMDX from '../my-apps/Myhaiku';
 import myhaikuIcon from '../assets/images/myhaiku.png';
