@@ -99,40 +99,39 @@ const IndexPage = () => (
             <div className="content">
               <h3>Summary</h3>
               <p>
-                Currently studying NuxtJS, VueJS and TypeScript. Have built apps
-                with Nuxt, Next and React, and completed full-stack&nbsp;
+                Currently studying and building apps with Vue, Nuxt, Pinia,
+                Next, TypeScript and React. I've completed full-stack&nbsp;
                 <a
                   href="https://www.udemy.com/course/node-with-react-fullstack-web-development/"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  React, Redux and MongoDB
+                  React, Redux & MongoDB
                 </a>
-                , and
+                , as well as
                 <a
                   href="https://www.udemy.com/course/react-redux/"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  &nbsp;React/Redux
-                </a>{' '}
-                courses in 2022, and separate&nbsp;
+                  &nbsp;Modern React/Redux
+                </a>
+                ,&nbsp;and&nbsp;
                 <a
                   href="https://www.udemy.com/course/javascript-beginners-complete-tutorial/"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  JavaScript, Node and Express
+                  JavaScript, Node & Express
                 </a>
-                , and PHP and MySQL courses.
+                , and PHP and MySQL courses over the last few years.
               </p>
 
               <p>
-                I completed a one year contract for North Western Melbourne
+                Completed a one year contract for North Western Melbourne
                 Primary Health Network as a front-end developer in June 2023. I
-                currently volunteer with TreeProject, a Victorian NGO, and run a
-                web-startup and design and host websites via my design
-                agency&nbsp;
+                currently volunteer with TreeProject, a Victorian NGO, run a
+                web-startup, and design and host websites via my agency&nbsp;
                 <a
                   href="https://eadigital.com.au"
                   target="_blank"
@@ -160,12 +159,12 @@ const IndexPage = () => (
                   North Western Melbourne Primary Health Network
                 </a>
                 &nbsp;as a front-end web developer until June 2023. I created
-                custom components for a system that clinicians use to conduct
-                assessments and make referrals, improved the system's UI/UX, and
+                custom components for a system that clinicians use to make
+                assessments and referrals, improved the system's UI/UX, and
                 created wireframes and design briefs. The stack was built on AWS
                 and included Python, Flask, and Jinja; I mainly worked with
-                Javascript and Bootstrap. We adopted CI/CD and agile techniques
-                and used Git and Github to collaborate.
+                JavaScript and Bootstrap. We used CI/CD, agile techniques and
+                collaborated via Git and Github.
               </p>
               <p>
                 I've also volunteered at&nbsp;
@@ -226,9 +225,9 @@ const IndexPage = () => (
             <div className="content">
               <h3>My Apps</h3>
               <p>
-                My latest app, growBook, was built with NuxtJS, VueJS, Prisma
-                and Tailwind. A recently built NextJS and TypeScript app, a MERN
-                stack app and other React apps are also showcased below.
+                My latest app, growBook, was built with Nuxt, Vue, Prisma and
+                Tailwind. I've also listed apps that I've built with Next and
+                TypeScript, the MERN stack, and React.
               </p>
             </div>
           </section>
@@ -242,7 +241,7 @@ const IndexPage = () => (
               appLink="https://growbook.vercel.app/"
               icon={growBookIcon}
               image={growBookScreenShot}
-              subtitle="An app that lets growers upload images and info about their favourite plants. growBook was built with Javascript frameworks Nuxt and Vue, as well as Prisma and Tailwind CSS."
+              subtitle="An app that lets growers upload images and info about their favourite plants. growBook was built with Javascript frameworks Nuxt and Vue, Prisma and Tailwind CSS."
             >
               <GrowBookMDX />
             </MyApp>
