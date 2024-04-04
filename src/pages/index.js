@@ -128,10 +128,9 @@ const IndexPage = () => (
               </p>
 
               <p>
-                Completed a one year contract for North Western Melbourne
-                Primary Health Network as a front-end developer in June 2023. I
-                currently volunteer with TreeProject, a Victorian NGO, run a
-                web-startup, and design and host websites via my agency&nbsp;
+                I worked as a front-end developer in the mental health space
+                until June 2023, and keep busy by designing and hosting websites
+                via my agency&nbsp;
                 <a
                   href="https://eadigital.com.au"
                   target="_blank"
@@ -139,7 +138,8 @@ const IndexPage = () => (
                 >
                   EA Digital
                 </a>
-                .
+                . I also run a web-startup and volunteer on the websites of
+                various NGOs.
               </p>
             </div>
           </section>
@@ -150,7 +150,7 @@ const IndexPage = () => (
             <div className="content">
               <h3>Work Experience</h3>
               <p>
-                I worked at&nbsp;
+                I completed a one year contract for&nbsp;
                 <a
                   href="https://nwmphn.org.au/"
                   target="_blank"
@@ -158,26 +158,17 @@ const IndexPage = () => (
                 >
                   North Western Melbourne Primary Health Network
                 </a>
-                &nbsp;as a front-end web developer until June 2023. I created
-                custom components for a system that clinicians use to make
-                assessments and referrals, improved the system's UI/UX, and
-                created wireframes and design briefs. The stack was built on AWS
-                and included Python, Flask, and Jinja; I mainly worked with
-                JavaScript and Bootstrap. We used CI/CD, agile techniques and
+                &nbsp;as a front-end web developer in June 2023. I created
+                custom components for a system that clinicians use to assess and
+                refer clients, improved the system's UI/UX, and created
+                wireframes and design briefs. The stack was built on Python and
+                Flask, hosting was via AWS; I mainly worked with JavaScript,
+                Jinja and Bootstrap. We used CI/CD and agile techniques, and
                 collaborated via Git and Github.
               </p>
               <p>
-                I've also volunteered at&nbsp;
-                <a
-                  href="https://treeproject.org.au"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  TreeProject
-                </a>
-                &nbsp;since 2020 as a web designer and developer. I design and
-                host WordPress and Joomla websites for various clients
-                through&nbsp;
+                I design and host WordPress and Joomla websites for various
+                clients through&nbsp;
                 <a
                   href="https://eadigital.com.au"
                   target="_blank"
@@ -185,7 +176,7 @@ const IndexPage = () => (
                 >
                   EA Digital
                 </a>
-                . I also run an eco-startup called&nbsp;
+                , and run an eco-startup called&nbsp;
                 <a
                   href="https://www.echoactive.com"
                   target="_blank"
@@ -193,7 +184,25 @@ const IndexPage = () => (
                 >
                   Echo Active
                 </a>
-                &nbsp;in my spare time.
+                &nbsp;in my spare time. I also volunteer with&nbsp;
+                <a
+                  href="https://treeproject.org.au"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  TreeProject
+                </a>
+                , a Victorian environmental NGO, as a web designer and
+                developer, and with&nbsp;
+                <a
+                  href="https://landofwelcome.org"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Land of Welcome
+                </a>
+                , a national NGO that helps refugees to integrate into
+                Australia.
               </p>
             </div>
           </section>
@@ -241,7 +250,7 @@ const IndexPage = () => (
               appLink="https://growbook.vercel.app/"
               icon={growBookIcon}
               image={growBookScreenShot}
-              subtitle="An app that lets growers upload images and info about their favourite plants. growBook was built with Javascript frameworks Nuxt and Vue, Prisma and Tailwind CSS."
+              subtitle="growBook lets growers upload images and info about their favourite plants. It was built with Javascript frameworks Vue and Nuxt, Prisma and Tailwind CSS."
             >
               <GrowBookMDX />
             </MyApp>
@@ -253,7 +262,7 @@ const IndexPage = () => (
               appLink="https://myhaiku.vercel.app/"
               icon={myhaikuIcon}
               image={myhaikuScreenShot}
-              subtitle="MyHaiku lets users create and share haiku. It was built with NextJS, TypeScript and Tailwind CSS."
+              subtitle="MyHaiku lets users create and share haiku, ie. short Japanese poems. It was built with NextJS, TypeScript and Tailwind CSS."
             >
               <MyHaikuMDX />
             </MyApp>
