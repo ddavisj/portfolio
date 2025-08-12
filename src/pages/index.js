@@ -19,6 +19,11 @@ import backgroundImg from '../assets/images/intro-background.jpg';
 import myAppsImg from '../assets/images/intro-my-apps.jpg';
 
 // Apps - icons - 180sq, screenshots: 410 x 425
+
+import EchoActiveMDX from '../my-apps/EchoActive';
+import echoActiveIcon from '../assets/images/echoactive-logo.png';
+import echoActiveScreenShot from '../assets/images/echoactive-screen.jpg';
+
 import GrowBookMDX from '../my-apps/GrowBook';
 import growBookIcon from '../assets/images/growBook3.png';
 import growBookScreenShot from '../assets/images/growBook-screen3.jpg';
@@ -167,7 +172,7 @@ const IndexPage = () => (
                 collaborated via Git and Github.
               </p>
               <p>
-                I design and host WordPress and Joomla websites for various
+                I also design and host WordPress and Joomla websites for various
                 clients through&nbsp;
                 <a
                   href="https://eadigital.com.au"
@@ -178,7 +183,7 @@ const IndexPage = () => (
                 </a>
                 , and run an eco-startup called&nbsp;
                 <a
-                  href="https://www.echoactive.com"
+                  href="https://www.echoactive.au"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -193,7 +198,7 @@ const IndexPage = () => (
                   TreeProject
                 </a>
                 , a Victorian environmental NGO, as a web designer and
-                developer, and with&nbsp;
+                developer, and&nbsp;
                 <a
                   href="https://landofwelcome.org"
                   target="_blank"
@@ -201,8 +206,7 @@ const IndexPage = () => (
                 >
                   Land of Welcome
                 </a>
-                , a national NGO that helps refugees to integrate into
-                Australia.
+                , an NGO that helps refugees integrate into Australia.
               </p>
             </div>
           </section>
@@ -234,9 +238,9 @@ const IndexPage = () => (
             <div className="content">
               <h3>My Apps</h3>
               <p>
-                My latest app, growBook, was built with Nuxt, Vue, Prisma and
-                Tailwind. I've also listed apps that I've built with Next and
-                TypeScript, the MERN stack, and React.
+                My latest web-app, Echo Active, was built with Nuxt, Vue, Prisma
+                and Tailwind. I've also listed apps below that I've built with
+                Next JS and TypeScript, the MERN stack, and React.
               </p>
             </div>
           </section>
@@ -246,11 +250,23 @@ const IndexPage = () => (
             <br />
 
             <MyApp
+              title="Echo Active"
+              appLink="https://www.echoactive.au/"
+              icon={echoActiveIcon}
+              image={echoActiveScreenShot}
+              subtitle="Echo Active is a platform for nature lovers. It was built with Javascript frameworks Vue and Nuxt, Prisma ORM, PostgreSQL, Tailwind CSS and a custom auth module."
+            >
+              <EchoActiveMDX />
+            </MyApp>
+          </section>
+
+          <section>
+            <MyApp
               title="growBook"
               appLink="https://growbook.vercel.app/"
               icon={growBookIcon}
               image={growBookScreenShot}
-              subtitle="growBook lets growers upload images and info about their favourite plants. It was built with Javascript frameworks Vue and Nuxt, Prisma and Tailwind CSS."
+              subtitle="growBook lets growers upload images and info about their favourite plants. It was built with Vue and Nuxt, Prisma, Tailwind CSS and Supabase."
             >
               <GrowBookMDX />
             </MyApp>
